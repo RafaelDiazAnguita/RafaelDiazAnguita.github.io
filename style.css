@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
+}
+h2,h3{
+    font-size: 250%;
+}
+.background-primary{
+    background-image: linear-gradient(135deg, #79db94 0, #67d296 10%, #54c897 20%, #42bc96 30%, #31ae92 40%, #219e8c 50%, #158e84 60%, #0c807d 70%, #0a7476 80%, #0b6a6f 90%, #0f616a 100%);
+}
+.primary-color{
+    color: #219e8d;
+}
+.text{
+    font-size: 20px;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.big-icon{
+    max-width: 178px;
+    margin-bottom: 30px;
+}
+.primary-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    background: #219e8d;
+    font-size: 25px;
+    padding: 12px 55px;
+    transition: .3s ease all;
+    position: relative;
+}
+.primary-button::after{
+    content: "";
+    width: 100%;
+    height: 20px;
+    background: yellow;
+}
+/** SECTION **/
+.first-section{
+    margin-top: 150px;
+}
+.section-title{
+    color:#219e8d;
+    font-size: 136px;
+}
+.section-image{
+    width: 100%;
+}
+/**********************/
+/** SLIDER **/
+.slider{
+    padding: 80px 0px 0px 0px;
+    height: 91.5vh;
+}
+#slider-image{
+    width: 60%;
+ }
+.main-title{
+    font-size: 800%;
+    letter-spacing: 55px;
+}
+.sub-title{
+    color: #fff;
+    font-size: 250%;
+    letter-spacing: 8px;
+}
+@media (max-width:1024px){
+    .main-title{
+        font-size: 500%;
+        letter-spacing: 40px;
+        padding-left: 25px;
+    }
+    .sub-title{
+        margin-top: 40px;
+    }
+    #slider-image{
+        width: 100%;
+     }
+}
+/************************/
+
+/** TOP MENU **/
+#top-menu{
+    position: sticky;
+    top: 0; 
+    background: #fff;
+    box-shadow: 0px 0px 25px black;
+}
+#top-menu div.row{
+    align-items: center;
+}
+#top-menu #menu-indicator{
+    width: 0px;
+    height: 7px;
+    background: #219e8d;
+    transition: .3s ease-out all;
+    /*transform: translate(-500px);*/
+}
+#top-menu button{
+    border: none;
+    border-bottom: 3px solid #fff;
+    font-size: 25px;
+    transition: .3s ease all;
+}
+@media (max-width:1024px){
+    #top-menu button{
+        font-size: 18px;  
+    }
+}
+#top-menu button:hover{
+    transform: translateY(-8px)
+}
+#top-menu button a{
+    text-decoration: none;
+    color: #000;
+}
+#top-menu button a:hover{
+    color: #219e8d;
+}
+/************************/
