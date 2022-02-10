@@ -22,9 +22,8 @@ h2,h3{
     letter-spacing: 1px;
     text-align: justify;
 }
-.big-icon{
-    max-width: 178px;
-    margin-bottom: 30px;
+.text-right{
+    text-align: right;
 }
 
 /**PRIMARY BUTTON**/
