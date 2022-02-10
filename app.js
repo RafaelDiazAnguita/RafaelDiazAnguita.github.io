@@ -19,6 +19,7 @@ const observer = new IntersectionObserver((entradas, observer) => {
 
 });
 
+
 observer.observe(document.getElementById('main-slider'));
 secciones.forEach(seccion => { observer.observe(seccion); });
 
