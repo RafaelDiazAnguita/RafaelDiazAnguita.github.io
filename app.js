@@ -3,7 +3,7 @@ const menu = document.getElementById('top-menu');
 const indicator = document.getElementById('menu-indicator');
 const secciones = document.querySelectorAll('.section');
 
-let indicatorTam = menu.querySelector('.row div').offsetWidth;
+let indicatorTam = menu.querySelector('#top-menu button').offsetWidth;
 indicator.style.width = indicatorTam + 'px';
 
 let indexSeccionActiva;
@@ -25,7 +25,7 @@ secciones.forEach(seccion => { observer.observe(seccion); });
 
 
 const onResize = () =>{
-    indicatorTam = menu.querySelector('.row div').offsetWidth;
+    indicatorTam = menu.querySelector('#top-menu button').offsetWidth;
     indicator.style.width = indicatorTam + 'px';
     indicator.style.transform = `translateX(${indicatorTam * indexSeccionActiva}px)`;
 }
