@@ -35,23 +35,28 @@
         </div>
 
         <!-- Fixed top menu -->
-        <nav id="top-menu" class="container-fluid">
-            <div class="menu-container">
-                <button><a href="#start">INICIO</a></button>
-                <button><a href="#educator-section">EDUCADOR</a></button>
-                <button><a href="#parent-section">PADRE</a></button>
-                <button><a href="#4">MY ACCOUNT</a></button>
+        <div id="top-menu" class="container-fluid">
+            <div class="row">
+                <div class="col-3 p-2 p-md-3 text-center"><button><a href="#start">INICIO</a></button></div>
+                <div class="col-3 p-2 p-md-3 text-center"><button><a href="#educator-section">EDUCADOR</a></button></div>
+                <div class="col-3 p-2 p-md-3 text-center"><button><a href="#parent-section">PADRE</a></button></div>
+                <div class="col-3 p-2 p-md-3 text-center"><button><a href="#4">MY ACCOUNT</a></button></div>
+                <span id="menu-indicator"></span>
             </div>
-            <span id="menu-indicator"></span>
-        </nav>
+            
+        </div>
 
         
         
         <!-- Sections -->
         <div class="container-fluid p-5 first-section section" id="eduk-section">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-5 section-title text-center"><b>¿Qué es eduK?</b></h2>
+                <div class="col-12 col-md-8">
+                    <h2 class="mb-5 section-title"><b>¿ERES EDUCADOR?</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
                     <p class="text">In a free hour, when our power of choice is untrammelled and 
                         when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
                         avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will 
@@ -59,15 +64,22 @@
                         holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, 
                         or else he endures pains to avoid worse pains."
                     </p>
+                    <div class="text-center">
+                        <button class="primary-button mt-5">
+                            <span>Manual Educador</span>
+                        </button>
+                    </div>  
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="section-image" src="./img/educator.png">
                 </div>
             </div>
         </div>
 
-
         <div class="container-fluid p-5 first-section section" id="educator-section">
             <div class="row">
                 <div class="col-12 col-md-8">
-                    <h2 class="mb-5 section-title"><b>¿Eres Educador?</b></h2>
+                    <h2 class="mb-5 section-title"><b>¿ERES EDUCADOR?</b></h2>
                 </div>
             </div>
             <div class="row">
@@ -94,7 +106,7 @@
         <div class="container-fluid mt-5 section p-5" id="parent-section">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="mb-5 section-title text-right"><b>¿Eres Padre?</b></h2>
+                    <h2 class="mb-5 section-title text-right"><b>¿ERES PADRE?</b></h2>
                 </div>
             </div>
             <div class="row">
