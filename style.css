@@ -135,6 +135,8 @@ h2,h3{
     align-items: center;
 }
 #top-menu #menu-indicator{
+    position: absolute;
+    bottom: 0;
     width: 0px;
     height: 7px;
     background: #219e8d;
