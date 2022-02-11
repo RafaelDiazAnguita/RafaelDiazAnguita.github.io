@@ -16,6 +16,9 @@ h2,h3{
 .primary-color{
     color: #219e8d;
 }
+.white{
+    color: #fff !important;
+}
 .text{
     font-size: 20px;
     line-height: 2.4;
