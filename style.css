@@ -25,6 +25,9 @@ h2,h3{
 .text-right{
     text-align: right;
 }
+.big-icon{
+    max-width: 65%;
+}
 
 /**PRIMARY BUTTON**/
 .primary-button{
@@ -70,14 +73,26 @@ h2,h3{
 /*********************************/
 /** SECTION **/
 .first-section{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .section-title{
     color:#219e8d;
     font-size: 136px;
 }
-.section-image{
-    width: 100%;
+span.section-title-decoration-center{
+    display: block;
+    height: 6px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffde7d;
+}
+.section-subtitle{
+    color: #f6416c;
+}
+div.section{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 @media (max-width: 1024px){
     .first-section{
@@ -98,7 +113,7 @@ h2,h3{
     height: 91.5vh;
 }
 #slider-image{
-    width: 60%;
+    width: 65%;
  }
 .main-title{
     font-size: 800%;
@@ -109,7 +124,13 @@ h2,h3{
     font-size: 250%;
     letter-spacing: 8px;
 }
+#main-slider{
+    padding: 2% 0 0 0;
+}
 @media (max-width:1024px){
+    .slider{
+        height: 100vh;
+    }
     .main-title{
         font-size: 500%;
         letter-spacing: 40px;
@@ -121,11 +142,15 @@ h2,h3{
     #slider-image{
         width: 100%;
      }
+     #main-slider{
+        padding: 15% 0 0 0;
+    }
 }
 /************************/
 
 /** TOP MENU **/
 #top-menu{
+    z-index: 999;
     position: sticky;
     top: 0; 
     background: #fff;
@@ -149,11 +174,6 @@ h2,h3{
     font-size: 25px;
     transition: .3s ease all;
 }
-@media (max-width:1024px){
-    #top-menu button{
-        font-size: 17px;  
-    }
-}
 #top-menu button:hover{
     transform: translateY(-8px)
 }
@@ -164,4 +184,13 @@ h2,h3{
 #top-menu button a:hover{
     color: #219e8d;
 }
+@media (max-width:1024px){
+    #top-menu{
+        position: relative;
+    }
+    #top-menu button{
+        font-size: 17px;  
+    }
+}
+
 /************************/

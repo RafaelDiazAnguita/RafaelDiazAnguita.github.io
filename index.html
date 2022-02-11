@@ -24,7 +24,7 @@
 
         <!-- Slider -->
         <div class="container-fluid slider section background-primary text-center" id='main-slider'>
-            <div class="row">
+            <div class="row w-100 m-0">
                 <div class="col-12">
                     <h1 class="text-center text-white main-title">eduK</h1>
                     <h2 class="text-center text-white sub-title">Aplicación para la enseñanza en la etapa infantil</h2>
@@ -37,12 +37,12 @@
         <!-- Fixed top menu -->
         <div id="top-menu" class="container-fluid">
             <div class="row">
-                <div class="col p-2 p-md-3 text-center"><button><a href="#start">INICIO</a></button></div>
-                <div class="col p-2 p-md-3 text-center"><button><a href="#eduk-section">NOSOTROS</a></button></div>
-                <div class="col p-2 p-md-3 text-center"><button><a href="#educator-section">EDUCADOR</a></button></div>
-                <div class="col p-2 p-md-3 text-center"><button><a href="#parent-section">PADRE</a></button></div>
-                <div class="col p-2 p-md-3 text-center"><button><a href="#4">MY ACCOUNT</a></button></div>
-                <span id="menu-indicator"></span>
+                <div class="col-12 col-md p-2 p-md-3 text-center"><button><a href="#start">INICIO</a></button></div>
+                <div class="col-12 col-md p-2 p-md-3 text-center"><button><a href="#eduk-section">NOSOTROS</a></button></div>
+                <div class="col-12 col-md p-2 p-md-3 text-center"><button><a href="#educator-section">EDUCADOR</a></button></div>
+                <div class="col-12 col-md p-2 p-md-3 text-center"><button><a href="#parent-section">PADRE</a></button></div>
+                <div class="col-12 col-md p-2 p-md-3 text-center"><button><a href="#4">MY ACCOUNT</a></button></div>
+                <span id="menu-indicator" class="d-none d-md-block"></span>
             </div>
             
         </div>
@@ -51,63 +51,68 @@
         
         <!-- Sections -->
         <div class="container-fluid p-5 first-section section" id="eduk-section">
+            
+            <h2 class="section-title text-center"><b>¿Qué es eduK?</b></h2>
+            <span class="section-title-decoration-center mb-5"></span>
+
             <div class="row">
-                <h2 class="mb-5 section-title text-center"><b>¿Qué es eduK?</b></h2>
-                <p class="text">In a free hour, when our power of choice is untrammelled and 
-                    when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
-                    avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will 
-                    frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always 
-                    holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, 
-                    or else he endures pains to avoid worse pains."
-                </p>
+                <div class="col-12 col-md-4 p-4">
+                    <h4 class="primary-color">Example</h4>
+                    <p class="text">In a free hour, when our power of choice is untrammelled and 
+                        when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
+                        avoided. But in certain circumstances 
+                        and owing to the claims of duty or the obligations of business it will</p>
+                    <div class="text-center mt-5"><img src="./img/main-icon-1.png" style="max-width: 30%;"></div>
+                </div>
+                <div class="col-12 col-md-4 p-4">
+                    <h4 class="primary-color">Example</h4>
+                    <p class="text">In a free hour, when our power of choice is untrammelled and 
+                        when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
+                        avoided. But in certain circumstances 
+                        and owing to the claims of duty or the obligations of business it will</p>
+                    <div class="text-center mt-5"><img src="./img/main-icon-2.png" style="max-width: 30%;"></div>                     
+                </div>
+                <div class="col-12 col-md-4 p-4">
+                    <h4 class="primary-color">Example</h4>
+                    <p class="text">In a free hour, when our power of choice is untrammelled and 
+                        when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
+                        avoided. But in certain circumstances 
+                        and owing to the claims of duty or the obligations of business it will</p>
+                    <div class="text-center mt-5"><img src="./img/main-icon-3.png" style="max-width: 30%;"></div> 
+                </div>
                 
             </div>
         </div>
 
-        <div class="container-fluid p-5 first-section section" id="educator-section">
-            <div class="row">
-                <div class="col-12 col-md-8">
-                    <h2 class="mb-5 section-title"><b>¿Eres Educador?</b></h2>
-                </div>
-            </div>
-            <div class="row">
+        <div class="container-fluid first-section section" id="educator-section">
+            <div class="row align-items-center">
                 <div class="col-12 col-md-6">
+                    <h2 class="mb-5 section-title"><b>¿Eres Educador?</b></h2>
                     <p class="text">In a free hour, when our power of choice is untrammelled and 
                         when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
                         avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will 
-                        frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always 
-                        holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, 
-                        or else he endures pains to avoid worse pains."
                     </p>
                     <div class="text-center">
-                        <button class="primary-button mt-5">
+                        <button class="primary-button mt-2">
                             <span>Manual Educador</span>
                         </button>
                     </div>  
                 </div>
-                <div class="col-12 col-md-6">
-                    <img class="section-image" src="./img/educator.png">
+                <div class="col-12 col-md-6 text-center">
+                    <img class="section-image mx-auto" style="max-width: 90%;" src="./img/educator.png">
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5 section p-5" id="parent-section">
-            <div class="row">
-                <div class="col-12">
+        <div class="container-fluid mt-5 section " id="parent-section">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                    <img class="section-image d-none d-md-block mx-auto" style="max-width: 70%;" src="./img/parent.png">
+                </div>
+                <div class="col-12 col-md-6">
                     <h2 class="mb-5 section-title text-right"><b>¿Eres Padre?</b></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img class="section-image d-none d-md-block" src="./img/parent.png">
-                </div>
-                <div class="col-12 col-md-6">
                     <p class="text">In a free hour, when our power of choice is untrammelled and 
                         when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
-                        avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will 
-                        frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always 
-                        holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, 
-                        or else he endures pains to avoid worse pains."
                     </p>
                      
                     <div class="text-center">
@@ -119,10 +124,8 @@
             </div>
         </div>
 
-
-
         <div class="container mt-5 section p-5" id="4">
-            <h2 class="mb-5 sub-title text-center"><b>4</b></h2>
+            <h2 class="mb-5 section-title text-center"><b>4</b></h2>
             <p class="text">In a free hour, when our power of choice is untrammelled and 
                 when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain 
                 avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will 
