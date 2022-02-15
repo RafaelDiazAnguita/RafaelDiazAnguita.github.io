@@ -201,11 +201,36 @@ div.section{
 /** IMG SLIDER **/
 .img-slider{
     display: flex;
+    position: relative;
     width: 300%;
 }
 .img-slider-section img{
     width: 100%;
     display: block;
     height: 100%;
+}
+.img-slider-button-left{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+}
+.img-slider-button-right{
+    position: absolute;
+    top: 50%;
+    left: 31.5%;
+    cursor: pointer;
+}
+.img-slider svg{
+    width: 55px;
+    height: 55px;
+    color: #000;
+}
+
+@media (max-width: 1024px){
+    .img-slider svg{
+        width: 25px;
+        height: 25px;
+    }
 }
 /************************/
