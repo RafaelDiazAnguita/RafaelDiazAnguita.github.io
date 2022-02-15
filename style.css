@@ -28,9 +28,6 @@ h2,h3{
 .text-right{
     text-align: right;
 }
-.big-icon{
-    max-width: 65%;
-}
 
 /**PRIMARY BUTTON**/
 .primary-button{
@@ -48,7 +45,7 @@ h2,h3{
     overflow: hidden;
 }
 .primary-button:hover{
-    border: 2px solid #219e8d;
+    border: 2px solid #0b6a6f;
     color: #fff;
 }
 .primary-button::after {
@@ -58,7 +55,7 @@ h2,h3{
 	z-index: 1;
 	top: 0;
 	left: calc(-200% - 0px);
-	border-bottom: 100px solid #219e8d;
+	border-bottom: 100px solid #0b6a6f;
 	border-right: 30px solid transparent;
 	transition: .4s ease-in-out all;
 }
@@ -79,8 +76,12 @@ h2,h3{
     margin-top: 100px;
 }
 .section-title{
-    color:#219e8d;
+    color:#0b6a6f;
     font-size: 136px;
+}
+.section-title-small{
+    color:#0b6a6f;
+    font-size: 56px;
 }
 span.section-title-decoration-center{
     display: block;
