@@ -57,6 +57,7 @@ h2,h3{
     transition: .3s ease-in-out all;
     position: relative;
     overflow: hidden;
+    word-spacing: 10px;
 }
 .primary-button:hover{
     border: 2px solid #0b6a6f;
@@ -82,6 +83,19 @@ h2,h3{
 	z-index: 2;
 	transition: .3s ease all;
     font-size: 21px;
+}
+.primary-button-2{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #0b6a6f;
+    font-size: 25px;
+    padding: 12px 55px;
+    transition: .3s ease-in-out all;
+    word-spacing: 10px;
+}
+.primary-button-2:hover{
+    transform: translateY(-10px);
 }
 @media (max-width: 1024px){
     .primary-button-container{
@@ -256,7 +270,21 @@ div.section{
     }
 }
 /************************/
+/**CARD VIEW**/
+.card-view{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 17px -3px #000;
+}
+.card-view-img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
+
+
+/**********************/
 
 
 
@@ -276,8 +304,14 @@ div.section{
     #home-icon-1,#home-icon-2,#home-icon-3{
         max-width: 40%;
     }
+    #function-section{
+        background-image: none;
+    }
 }
-
+.card-view-title{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 
 
