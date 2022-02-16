@@ -10,25 +10,39 @@ html{
 h2,h3{
     font-size: 250%;
 }
-.background-primary{
+.background-primary-gradient{
     background-image: linear-gradient(135deg, #79db94 0, #67d296 10%, #54c897 20%, #42bc96 30%, #31ae92 40%, #219e8c 50%, #158e84 60%, #0c807d 70%, #0a7476 80%, #0b6a6f 90%, #0f616a 100%);
 }
+.background-primary{
+    background-color: #0b6a6f;
+}
 .primary-color{
-    color: #219e8d;
+    color: #0b6a6f;
 }
 .white{
     color: #fff !important;
 }
+/** TEXT **/
 .text{
     font-size: 20px;
     line-height: 2.4;
     letter-spacing: 1px;
-    text-align: justify;
 }
 .text-right{
     text-align: right;
 }
-
+.text-right-responsive{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+@media (max-width: 1024px){
+    .text-right-responsive{
+        text-align: justify;
+    }
+}
+/*************************************/
 /**PRIMARY BUTTON**/
 .primary-button{
     display: inline-flex;
@@ -69,14 +83,17 @@ h2,h3{
 	transition: .3s ease all;
     font-size: 21px;
 }
-
+@media (max-width: 1024px){
+    .primary-button-container{
+        text-align: center !important;
+    }
+}
 /*********************************/
 /** SECTION **/
 .first-section{
     margin-top: 100px;
 }
 .section-title{
-    color:#0b6a6f;
     font-size: 136px;
 }
 .section-title-small{
@@ -184,6 +201,7 @@ div.section{
 #top-menu button a{
     text-decoration: none;
     color: #000;
+    background-color: #fff;
 }
 #top-menu button a:hover{
     color: #219e8d;
@@ -199,9 +217,13 @@ div.section{
 
 /************************/
 /** IMG SLIDER **/
+.img-slider-container{
+    position: relative;
+    overflow: hidden;
+}
 .img-slider{
     display: flex;
-    position: relative;
+    
     width: 300%;
 }
 .img-slider-section img{
@@ -212,25 +234,48 @@ div.section{
 .img-slider-button-left{
     position: absolute;
     top: 50%;
-    left: 1%;
+    left: 3%;
     cursor: pointer;
 }
 .img-slider-button-right{
     position: absolute;
     top: 50%;
-    left: 31.5%;
+    right: 3%;
     cursor: pointer;
 }
-.img-slider svg{
+.img-slider-container svg{
     width: 55px;
     height: 55px;
     color: #000;
 }
 
 @media (max-width: 1024px){
-    .img-slider svg{
+    .img-slider-container svg{
         width: 25px;
         height: 25px;
     }
 }
 /************************/
+
+
+
+
+/**RESPONSIVE IMAGES**/
+
+
+#home-icon-1,#home-icon-2,#home-icon-3{
+    max-width: 30%;
+}
+@media (max-width:1024px){
+    #home-icon-1,#home-icon-2,#home-icon-3{
+        max-width: 40%;
+    }
+}
+
+
+
+
+
+
+
+/***********************/
