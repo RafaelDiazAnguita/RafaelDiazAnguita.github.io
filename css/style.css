@@ -195,6 +195,7 @@ div.section{
     top: 0; 
     background: #fff;
     box-shadow: 0px 0px 25px black;
+    overflow: hidden;
 }
 #top-menu div.row{
     align-items: center;
